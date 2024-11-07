@@ -1,0 +1,58 @@
+1.you should be able to install python.
+check install and check version = python --version
+
+2.you should be able to install django framework
+  install django framework  pip install django
+  verify the python framework pip --version
+
+3.you should be able to create basic python django application
+   django-admin startproject myproject
+   cd myproject
+
+4.you should be able to host and run web application django.
+  run command=python manage.py runserver
+              python manage.py migrate
+ 
+5.you should be comfortable with files and folder created by django.
+  Understanding Django Project Structure
+  manage.py: Command-line utility.
+  myproject/:
+  __init__.py: Marks the directory as a Python package.
+  settings.py: Configuration settings.
+  urls.py: URL declarations.
+  wsgi.py: Entry point for WSGI-compatible servers.
+
+6.you should be comfortable with request response life cycle of django.
+Ans=User request ➔ URLs ➔ View function ➔ Model (if necessary) ➔ Template ➔ Response rendered to the user.
+
+
+7.you should be knowing MVT framework
+ Ans= Model: Database layer.
+      View: Business logic.
+      Template: Presentation layer.
+
+8.you should create and maintain proper folders for model, forms,templates.
+ Ans=  myapp/
+          ├── models.py
+          ├── forms.py
+          ├── templates/
+          │   └── myapp/
+          │       └── index.html
+
+9.you should be comfortable in understanding static and dynamic pages using DTL
+
+
+10.Object oriented Programming concetps using python
+	a.create class, define members, add member functions, defining main function
+	b.create constructor, destructor,tostring ,getter, setter self keyword
+	c.encapsulation
+	c.create array, collections
+	d.understand basic syntax for looping, conditions, switch
+	e.input and ouput on console
+	f.inheritance
+	g.abstract class, abstract method
+	h.interface, multiple interface inheritance
+11.File IO
+12.Serialization
+13.Reflection
+14.Creating package in python
